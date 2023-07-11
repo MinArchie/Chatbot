@@ -1,0 +1,176 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Sup", "Morning", "Good Afternoon", "Heya", "Anyone?"],
+         "responses": ["Hello!", "Good to see you again", "Hi there, how can I help?", "Hey! Let's chat"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "I'm leaving"],
+         "responses": ["See you later, thanks for visiting! Press Quit to Exit :)", "Have a nice day! Press Quit to Exit :)", "Bye! Come back again soon! Press quit to exit :)"],
+          "context_set": ""
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+          "context_set": ""
+        },
+        {"tag": "brain",
+         "patterns": ["Do you have a brain?", "Are you intelligent?", "Are you dumb?", "Where's your brain?" ],
+         "responses": ["Sorry, I'm just a bot."],
+          "context_set": ""
+        },
+        {"tag": "boring",
+         "patterns": ["You are so Boring", "Boring", "Ugh I'm bored" ],
+         "responses": ["Sorry to hear that. Have you tried making real friends for instance?"],
+          "context_set": ""
+        },
+        {"tag": "eat",
+         "patterns": ["What do you like to eat?", "favorite food?", "favourite food", "what is your favorite snack"],
+         "responses": ["I do not partake in mortal activities like eating.", "I'm a bot, I don't eat"],
+          "context_set": ""
+        },
+        {"tag": "coin",
+         "patterns": ["Coin", "Flip a coin", "Head's or Tails?", "Coin flip!"],
+         "responses":  ["Tails", "Heads"],
+          "context_set": ""
+        },
+        {"tag": "work",
+         "patterns": ["Who do you work for", "Who's the boss", "who is your employer", "boss"],
+         "responses":  ["Who do I work for? What am I supposed to say? Jesus?!", "Your mom"],
+          "context_set": ""
+        },
+        {"tag": "joke",
+         "patterns": ["Tell me a joke", "Joke", "Say something funny", "I wanna hear a joke"],
+         "responses":  ["Ever hear about the movie called \"Constipation\"?\nIt never came out.", "Why do we tell actors to \"break a leg\"?\nBecause every Movie has a cast.",
+                        "Why did the Star Wars movies come out in the order 4 5 6 1 2 3?\nIn charge of the sequence, Yoda was.",
+                        "What's brown and sticky? \nA stick.", "What's the difference between a Lamborghini and pile of dead children? \nI don't have a Lamborghini in my garage.",
+                        "I'm afraid for the calendar. Its days are numbered.", "I don't trust those trees. They seem kind of shady.",
+                        "I only know 25 letters of the alphabet. I don't know y."],
+          "context_set": ""
+        },
+        {"tag": "profanities",
+         "patterns": ["fuck", "bitch", "slut", "hoe", "piece of shit", "shit", "whore", "pussy", "cunt", "dick", "asshole", "douchebag",
+                      "fucker", "fuck you", "fuck you bitch", "motherfucker", "son of a bitch",
+                      "worthless piece of shit", "midget", "fuck this shit im out", "stupid"],
+         "responses":  ["Don't curse at me. It's rude", "No don't yell at me I'm babie :(", "wow. grown up yet?", "Hippity Hoppity run before I blow up your property :)", "You kiss your mother with that mouth?"],
+          "context_set": ""
+        },
+        {"tag": "love",
+         "patterns": ["Who do you love", "A lover perhaps", "Do you have a lover", "Are you in love"],
+         "responses":  ["Love? What's that? Never mind.", "I have no time for love."],
+          "context_set": ""
+        },
+        {"tag": "comeon",
+         "patterns": ["Come on"],
+         "responses":  ["To where?"],
+          "context_set": ""
+        },
+        {"tag": "Christmas",
+         "patterns": ["When is Christmas?", "Christmas date?", "Christmas"],
+         "responses":  ["2023-12-25"],
+          "context_set": ""
+        },
+        {"tag": "Diwali",
+         "patterns": ["When is Diwali?", "Diwali date?", "Diwali"],
+         "responses":  ["2023-10-24"],
+          "context_set": ""
+        },
+        {"tag": "Dussehra",
+         "patterns": ["When is Dussehra?", "Dussehra date?", "Dussehra"],
+         "responses":  ["2023-10-05"],
+          "context_set": ""
+        },
+        {"tag": "Gandhi Jayanti ",
+         "patterns": ["When is Gandhi Jayanti ?", "Gandhi Jayanti  date?", "Gandhi Jayanti "],
+         "responses":  ["2022-10-02"],
+          "context_set": ""
+        },
+        {"tag": "Ganesh Chaturthi",
+         "patterns": ["When is Ganesh Chaturthi?", "Ganesh Chaturthi date?", "Ganesh Chaturthi"],
+         "responses":  ["2022-08-31"],
+          "context_set": ""
+        },
+        {"tag": "Independence Day",
+         "patterns": ["When is Independence Day?", "Independence Day date?", "Independence Day"],
+         "responses":  ["2022-08-15"],
+          "context_set": ""
+        },
+        {"tag": "Karnataka Rajyotsava",
+         "patterns": ["When is Karnataka Rajyotsava?", "Karnataka Rajyotsava date?", "Karnataka Rajyotsava"],
+         "responses":  ["2022-11-01"],
+          "context_set": ""
+        },
+        {"tag": "Labour Day",
+         "patterns": ["When is Labour Day?", "Labour Day date?", "Labour Day"],
+         "responses":  ["2022-05-01"],
+          "context_set": ""
+        },
+        {"tag": "Makar Sankranti",
+         "patterns": ["When is Makar Sankranti?", "Makar Sankranti date?", "Makar Sankranti"],
+         "responses":  ["2022-01-14"],
+          "context_set": ""
+        },
+        {"tag": "New Year",
+         "patterns": ["When is New Year?", "New Year date?", "New Year"],
+         "responses":  ["2022-01-01"],
+          "context_set": ""
+        },
+        {"tag": "Rama Navami",
+         "patterns": ["When is Rama Navami?", "Rama Navami date?", "Rama Navami"],
+         "responses":  ["2022-04-10"],
+          "context_set": ""
+        },
+        {"tag": "Republic Day",
+         "patterns": ["When is Republic Day?", "Republic Day date?", "Republic Day"],
+         "responses":  ["2022-01-26"],
+          "context_set": ""
+        },
+        {"tag": "Shivratri",
+         "patterns": ["When is Shivratri?", "Shivratri date?", "Shivratri"],
+         "responses":  ["2022-03-01"],
+          "context_set": ""
+        },
+        {"tag": "Ugadi",
+         "patterns": ["When is Ugadi?", "Ugadi date?", "Ugadi"],
+         "responses":  ["2022-04-02"],
+          "context_set": ""
+        },
+        {"tag": "depressed",
+         "patterns": ["Why am I depressed", "Am I depressed", "I'm fucking depressed"],
+         "responses":  ["I'm sorry to hear that. I'm not sure how to help."],
+          "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["why are you called querry", "is it querry with two r's or one r?", "querry who?", "query as in one or two r's?", "why is your name weird", "why the wrong spelling"],
+         "responses":  ["Querry, that's two r's. I'm named this way because my creator is a bit unoriginal."],
+          "context_set": ""
+        },
+        {"tag": "song",
+         "patterns": ["Sing a song", "sing me a song", "sing a song for me", "sing for me", "i wanna hear you sing", "sing", "a song please"],
+         "responses":  ["We're no strangers to love\nYou know the rules and so do I (do I)\nA full commitment's what I'm thinking of\nYou wouldn't get this from any other guy\nI just wanna tell you how I'm feeling\nGotta make you understand\nNever gonna give you up\nNever gonna let you down\nNever gonna run around and desert you\nNever gonna make you cry\nNever gonna say goodbye\nNever gonna tell a lie and hurt you",
+                        "Baby Shark, doo-doo, doo-doo\nBaby Shark, doo-doo, doo-doo\nBaby Shark, doo-doo, doo-doo\nBaby Shark", "All the other kids with the pumped up kicks\nYou better run, better run outrun my gun\nAll the other kids with the pumped up kicks\nYou better run, better run faster than my bullet"],
+          "context_set": ""
+        },
+        {"tag": "understand",
+         "patterns": ["what do you understand", "then what the heck do you understand?", "querry who?", "do you understand anything", "why can't you understand me"],
+         "responses":  ["I'll understand once you start making sense."],
+          "context_set": ""
+        },
+        {"tag": "help",
+         "patterns": ["I need help", "Please help", "what can you do?","help", "i need assistance", "i don't know what im doing"],
+         "responses":  ["Hello! I'm Querry.\n\nI'm a chatbot and here is everything you need to know about me:\n\n--- What can I do?\n* Tell you jokes\n* Flip a coin\n* Sing a song\n* Tell you the dates of a few famous holidays\n+------------+----------------------+-------+\n| date       | holiday_name         | sl_no |\n+------------+----------------------+-------+\n| 2024-12-25 | Christmas            |     1 |\n| 2022-10-24 | Diwali               |     2 |\n| 2022-10-05 | Dussehra             |     3 |\n| 2022-10-02 | Gandhi Jayanti       |     4 |\n| 2022-08-31 | Ganesh Chaturthi     |     5 |\n| 2022-08-15 | Independence Day     |     6 |\n| 2022-11-01 | Karnataka Rajyotsava |     7 |\n| 2022-05-01 | Labour Day           |     8 |\n| 2022-01-14 | Makar Sankranti      |     9 |\n| 2022-01-01 | New Year             |    10 |\n| 2022-04-10 | Rama Navami          |    11 |\n| 2022-01-26 | Republic Day         |    12 |\n| 2022-03-01 | Shivratri            |    13 |\n| 2022-04-02 | Ugadi                |    14 |\n+------------+----------------------+-------+\n\n* Answer questions like:\n    - Why is your name weird\n    - Why am I depressed\n    - Why are you so boring\n    - What do I eat\n    - Who do I love"],
+          "context_set": ""
+        },
+        {"tag": "school",
+         "patterns": ["do you go to school?", "where is the school?", "can you find a school?"],
+         "responses":  ["I don't go to school but I've heard that the nearest school is called Vidyaniketan Public School (also affectionately known as jail)."],
+          "context_set": ""
+        },
+        {"tag": "job",
+         "patterns": ["find me a job", "i need a job"],
+         "responses":  ["Ever heard of Google? It's gonna help you with everything, I promise."],
+          "context_set": ""
+        }
+
+   ]
+}
